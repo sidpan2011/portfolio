@@ -45,7 +45,7 @@ const Projects = () => {
       title: "Typing Master",
       from_to_date: "Jun 2023 - Aug 2023",
       description: "A minimalist game to improve typing speed, offering detailed performance analysis (WPM, accuracy, errors) with a user-friendly interface.",
-      keywords: ["JavaScript", "CSS", "Web3.js"],
+      keywords: ["JavaScript", "CSS", "HTML"],
       web: "https://typing-master0.netlify.app/",
       repo: "https://github.com/sidpan2011/Typing-Master"
     },
