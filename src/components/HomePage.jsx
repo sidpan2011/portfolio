@@ -7,6 +7,7 @@ import Experiences from './Experiences'
 import Education from './Education'
 import Projects from './Projects'
 import ContactMe from './ContactMe'
+import ContributionsGraph from './ContributionsGraph'
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             <Experiences />
             <Education />
             <Projects />
+            <ContributionsGraph />
             <ContactMe />
             <div className='absolute bottom-24 left-0 right-0'>
                 <FloatingDockDemo />

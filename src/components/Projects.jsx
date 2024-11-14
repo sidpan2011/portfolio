@@ -5,6 +5,15 @@ import ProjectsCard from './ProjectsCard'
 const Projects = () => {
   const myProjects = [
     {
+      gif:"https://my-projects-gifs.s3.amazonaws.com/tauth.mov",
+      title: "TAuth - New-Gen Authentication",
+      from_to_date: "Nov 2024 - Present",
+      description: "TAuth uses advanced algorithms to analyze and verify users based on their unique typing patterns. This provides an additional layer of security beyond traditional authentication methods.",
+      keywords: ["Vite", "React", "Tailwind CSS", "PostgreSQL", "Golang", "Atom State Management"],
+      web: "https://tauth.vercel.app/",
+      repo: "https://github.com/sidpan2011/tauth"
+    },
+    {
       gif: "https://my-projects-gifs.s3.amazonaws.com/zerobyte-wallet.mov",
       title: "ZeroByte Wallet",
       from_to_date: "Oct 2024 - Present",
