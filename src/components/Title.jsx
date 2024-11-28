@@ -13,7 +13,8 @@ const Title = () => {
                     <p className='lg:text-xl md:text-lg text-md dark:text-white/90 text-black/90'>Frontend developer passionate about React and Next.js. Building products that make life easier.</p>
                 </div>
                 <div className=''>
-                    <Image src={pfp} alt='Profile picture' className='ml-5 rounded-full  max-w-28' />
+                    <div className='absolute z-10 right-[-10px] top-[-10px] text-4xl'>🎂</div>
+                    <Image src={pfp} alt='Profile picture' className='ml-5 rounded-full  max-w-28 relative' />
                 </div>
             </div>
             </BlurFade>

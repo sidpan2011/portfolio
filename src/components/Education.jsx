@@ -37,7 +37,7 @@ const Education = () => {
                     experiences.map((item, index) => (
                         <div className='flex justify-between items-center mb-6 mt-4'>
                             <div className=' flex items-center' key={index}>
-                                <Image src={item.logo} width={40} height={40} className='rounded-md mr-3 mt-1' />
+                                <Image src={item.logo} alt={item.company_name} width={40} height={40} className='rounded-md mr-3 mt-1' />
                                 <div>
                                     <h3>{item.company_name}</h3>
                                     <p className='text-sm dark:text-white/70 text-black/70'>{item.title}</p>
