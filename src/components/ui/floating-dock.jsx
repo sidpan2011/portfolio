@@ -5,8 +5,8 @@
  **/
 
 import { cn } from "@/lib/utils";
-import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
 import { AnimatePresence, motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { EllipsisVertical, X } from "lucide-react";
 import Link from "next/link";
 import { useRef, useState } from "react";
 
@@ -69,7 +69,7 @@ const FloatingDockMobile = ({
       <button
         onClick={() => setOpen(!open)}
         className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center">
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
+        {open ? <X className="h-5 w-5 text-neutral-500 dark:text-neutral-400" /> :<EllipsisVertical className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />}
       </button>
     </div>)
   );

@@ -5,7 +5,6 @@ import {
     IconBrandLinkedin,
     IconBrandX,
     IconHome,
-    IconNewSection,
 } from "@tabler/icons-react";
 import { FaMedium } from "react-icons/fa6";
 import { FloatingDock } from "./ui/floating-dock";
