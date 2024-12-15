@@ -17,7 +17,7 @@ const Experiences = () => {
             logo: "https://pbs.twimg.com/profile_images/1837450642689839105/MNZA-W7J_400x400.jpg",
             company_name: "ZeroByte",
             title: "Co-founder",
-            href: "https://dev.0byte.tech/",
+            href: "https://www.0byte.tech/",
             from_to_date: "Sep 2024 - Present",
             description: "Led the frontend development for zeroByte, a blockchain-based platform leveraging zero-knowledge proofs for private transactions. Engineered a comprehensive solution that included a robust web3 wallet system using Solana SDK, ensuring 99.9% uptime and zero security breaches while supporting multiple Solana wallets. Integrated a zero-knowledge proof system, enabling sub-second transaction verification without compromising data privacy. These innovations resulted in a 40% increase in user engagement and a 25% reduction in transaction processing time, significantly enhancing the platform's performance and user experience."
 
