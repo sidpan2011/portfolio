@@ -28,7 +28,7 @@ const Projects = () => {
       from_to_date: "Sep 2024 - Present",
       description: "ZeroByte is a blockchain platform that enables private, secure, and fast cryptocurrency transactions, preserving user anonymity in digital finance.",
       keywords: ["Vite","React", "Tailwind CSS", "Solana SDK", "zkSNARK", "Anchor"],
-      web: "https://dev.0byte.tech/",
+      web: "https://www.0byte.tech/",
       repo: "https://github.com/zr0byte/zerobyte/"
     },
     {
