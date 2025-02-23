@@ -8,7 +8,7 @@ const LastUpdated = () => {
             try {
                 const response =  await fetch(`https://api.vercel.com/v6/deployments`, {
                     headers: {
-                        Authorization: `Bearer ${process.env.VERCEL_ACCESS_TOKEN}`
+                        Authorization: `Bearer ${process.env.NEXT_PUBLIC_VERCEL_ACCESS_TOKEN}`
                     }
                 })
                 if (!response.ok) {
