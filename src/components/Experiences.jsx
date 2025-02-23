@@ -23,7 +23,7 @@ const Experiences = () => {
 
         },
         {
-            logo: "https://media.licdn.com/dms/image/v2/C560BAQF7EIZJ0JWCwQ/company-logo_200_200/company-logo_200_200/0/1630638843520?e=1737590400&v=beta&t=9qznLMy-rgraYAP7eOP9jTdHiaZfkFppALFld0wcf_s",
+            logo: "https://media.licdn.com/dms/image/v2/C560BAQF7EIZJ0JWCwQ/company-logo_200_200/company-logo_200_200/0/1630638843520?e=1748476800&v=beta&t=4xw7l-naIUaBHirmtwm2zxfxM0EHyXL8nDRtzhvwpw4",
             company_name: "AssessPrep",
             title: "Frontend Developer",
             href: "https://www.assessprep.com/",
@@ -32,7 +32,7 @@ const Experiences = () => {
 
         },
         {
-            logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFnhicLFvzh7g/company-logo_200_200/company-logo_200_200/0/1630626353923/techinfy_logo?e=1737590400&v=beta&t=IykrcKaeql6BSKGP4fN2S-8q_dw-iXzhtrJ6n-VAV44",
+            logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFnhicLFvzh7g/company-logo_200_200/company-logo_200_200/0/1630626353923/techinfy_logo?e=1748476800&v=beta&t=0CEbpabuF6WqsDVsnj8XfUR7xwWEdWDWIvMht04tST0",
             company_name: "Techinfy Solutions",
             title: "Business and Data Analyst",
             href: "https://www.techinfy.in/",

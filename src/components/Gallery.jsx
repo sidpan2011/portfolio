@@ -8,7 +8,7 @@ import BlurFade from "./ui/blur-fade";
 //   return `${gallery}/p${i + 1}`;
 // });
 
-const images = Array.from({ length: 11 }, (_, i) => `/gallery/p${i + 1}.jpg`);
+const images = Array.from({ length: 9 }, (_, i) => `/gallery/p${i + 1}.jpg`);
 export function Gallery() {
   return (
     <section id="photos" className="my-8">
