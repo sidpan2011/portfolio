@@ -20,8 +20,8 @@ const ProjectsCard = ({ project }) => {
                     />
                 </a>
             ) : (
-                <div className="w-full h-40 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <span className="text-gray-500 dark:text-gray-400">No video available</span>
+                <div className="w-full h-auto flex items-center justify-center">
+                    <Image src={project.banner} alt={project.title} className="w-full h-full object-cover" />
                 </div>
             )}
             <CardHeader>

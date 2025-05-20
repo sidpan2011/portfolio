@@ -7,8 +7,13 @@ import BlurFade from "./ui/blur-fade";
 //   const height = isLandscape ? 600 : 800;
 //   return `${gallery}/p${i + 1}`;
 // });
-
-const images = Array.from({ length: 9 }, (_, i) => `/gallery/p${i + 1}.jpg`);
+const pngIndex = 1;  
+const images = Array.from({ length: 6 }, (_, i) => {
+  const idx  = i + 1;                  // 1-based file number
+  const ext  = idx === pngIndex ? 'png' : 'jpg';
+  // console.log("here",`/gallery/p${idx}.${ext}`);
+  return `/gallery/p${idx}.${ext}`;
+});
 export function Gallery() {
   return (
     <section id="photos" className="my-8">

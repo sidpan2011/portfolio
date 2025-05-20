@@ -1,9 +1,19 @@
 import React from 'react'
 import HighLight from './HighLight'
 import ProjectsCard from './ProjectsCard'
+import byteScreen from '../../public/assets/0byte.jpeg'
 
 const Projects = () => {
   const myProjects = [
+    {
+      banner: byteScreen,
+      title: "0byte",
+      from_to_date: "Sep 2024 - Present",
+      description: "0byte is a zero-knowledge infrastructure layer that invisibly embeds tamper-evident proofs into AI-generated media as it’s created, anchoring those proofs on Solana so anyone can verify authenticity without revealing private data.",
+      keywords: ["Nextjs", "Tailwind CSS", "Solana SDK","Python", "ZKP", "Anchor", "Rust"],
+      web: "https://0byte.tech/",
+      repo: "https://github.com/0byte-lab"
+    },
     {
       gif:"https://my-projects-gifs.s3.amazonaws.com/tauth.mov",
       title: "TAuth - New-Gen Authentication",
@@ -13,33 +23,24 @@ const Projects = () => {
       web: "https://tauth.vercel.app/",
       repo: "https://github.com/sidpan2011/tauth"
     },
-    {
-      gif: "https://my-projects-gifs.s3.amazonaws.com/zerobyte-wallet.mov",
-      title: "ZeroByte Wallet",
-      from_to_date: "Oct 2024 - Present",
-      description: "A privacy-focused Solana wallet for anonymous transactions, offering easy integration and simplified Web3 payments.",
-      keywords: ["Vite", "React", "Tailwind CSS", "Clerk", "Solana SDK"],
-      web: "https://wallet.0byte.tech/",
-      repo: "https://github.com/zr0byte/zerobyte-wallet"
-    },
-    {
-      gif: "https://my-projects-gifs.s3.amazonaws.com/zerobyte.mov",
-      title: "ZeroByte",
-      from_to_date: "Sep 2024 - Present",
-      description: "ZeroByte is a blockchain platform that enables private, secure, and fast cryptocurrency transactions, preserving user anonymity in digital finance.",
-      keywords: ["Vite","React", "Tailwind CSS", "Solana SDK", "zkSNARK", "Anchor"],
-      web: "https://www.0byte.tech/",
-      repo: "https://github.com/zr0byte/zerobyte/"
-    },
-    {
-      gif: "https://my-projects-gifs.s3.amazonaws.com/taskly.mov",
-      title: "Taskly",
-      from_to_date: "Aug 2024 - Present",
-      description: "A revamped task management app built with Next.js 14, React, and enhanced UI using Tailwind CSS, Shadcn UI, and Magic UI.",
-      keywords: ["Next.js 14","React", "Tailwind CSS", "Clerk"],
-      web: "",
-      repo: "https://github.com/sidpan2011/your-todo-v2"
-    },
+    // {
+    //   gif: "https://my-projects-gifs.s3.amazonaws.com/zerobyte-wallet.mov",
+    //   title: "ZeroByte Wallet",
+    //   from_to_date: "Oct 2024 - Present",
+    //   description: "A privacy-focused Solana wallet for anonymous transactions, offering easy integration and simplified Web3 payments.",
+    //   keywords: ["Vite", "React", "Tailwind CSS", "Clerk", "Solana SDK"],
+    //   web: "https://wallet.0byte.tech/",
+    //   repo: "https://github.com/zr0byte/zerobyte-wallet"
+    // },
+    // {
+    //   gif: "https://my-projects-gifs.s3.amazonaws.com/taskly.mov",
+    //   title: "Taskly",
+    //   from_to_date: "Aug 2024 - Present",
+    //   description: "A revamped task management app built with Next.js 14, React, and enhanced UI using Tailwind CSS, Shadcn UI, and Magic UI.",
+    //   keywords: ["Next.js 14","React", "Tailwind CSS", "Clerk"],
+    //   web: "",
+    //   repo: "https://github.com/sidpan2011/your-todo-v2"
+    // },
     {
       gif: "https://my-projects-gifs.s3.amazonaws.com/your-todo.mov",
       title: "Your To-do App v1",

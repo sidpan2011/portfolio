@@ -27,13 +27,13 @@ export function FloatingDockDemo() {
             ),
             href: "https://medium.com/@sidhanthpandey",
         },
-        {
-            title: "Resume",
-            icon: (
-                <FileUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "https://drive.google.com/file/d/1s0umvKfCD3qyH24bE6qq_bGC5VdSrxoz/view?usp=sharing",
-        },
+        // {
+        //     title: "Resume",
+        //     icon: (
+        //         <FileUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "https://drive.google.com/file/d/1s0umvKfCD3qyH24bE6qq_bGC5VdSrxoz/view?usp=sharing",
+        // },
         {
             title: "LinkedIn",
             icon: (
