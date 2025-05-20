@@ -14,12 +14,20 @@ const Experiences = () => {
     }
     const experiences = [
         {
-            logo: "https://pbs.twimg.com/profile_images/1837450642689839105/MNZA-W7J_400x400.jpg",
-            company_name: "ZeroByte",
-            title: "Co-founder",
+            logo: "https://avatars.githubusercontent.com/u/195132230?s=200&v=4",
+            company_name: "Nolabs Tech",
+            title: "Co-Founder & CEO",
+            // href: "https://www.0byte.tech/",
+            from_to_date: "July 2024 - Present",
+            description: "A deep-tech studio in Gurgaon (with a Delaware entity in the works) that fuses advanced cryptography, blockchain, and human-centric AI to build the trust infrastructure and intelligent tools of tomorrow’s internet—projects like 0byte, which brings cryptographic authenticity to AI-generated media, and Acraia, an autonomous AI interview platform. We pair rigorous engineering with rapid, product-first iteration—ship, learn, refine—assembling a lean team of builders who turn ambitious ideas into production-ready systems that feel effortless for users, enabling them to move faster, trust what they see, and focus on what matters."
+        },
+        {
+            logo: "https://private-user-images.githubusercontent.com/88340810/444649388-8ffbede2-f7f3-481d-8197-7aeefbd5bd94.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3NjUyMjEsIm5iZiI6MTc0Nzc2NDkyMSwicGF0aCI6Ii84ODM0MDgxMC80NDQ2NDkzODgtOGZmYmVkZTItZjdmMy00ODFkLTgxOTctN2FlZWZiZDViZDk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTIwVDE4MTUyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5MTBlMGNmNjgyZjMwMTY5MWE5NWU2MTAyYmEyOGY1MGEzODc1ZjBiOTdlZDE0MTVlZDUyOWIzYzI0OTJhMzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.a7d8s2U77LBEVXVa3rS36q72FH2QX3UCA57OBQ5YRWQ",
+            company_name: "0byte",
+            title: "Co-Founder & CEO",
             href: "https://www.0byte.tech/",
             from_to_date: "Sep 2024 - Present",
-            description: "Led the frontend development for zeroByte, a blockchain-based platform leveraging zero-knowledge proofs for private transactions. Engineered a comprehensive solution that included a robust web3 wallet system using Solana SDK, ensuring 99.9% uptime and zero security breaches while supporting multiple Solana wallets. Integrated a zero-knowledge proof system, enabling sub-second transaction verification without compromising data privacy. These innovations resulted in a 40% increase in user engagement and a 25% reduction in transaction processing time, significantly enhancing the platform's performance and user experience."
+            description: " I’ve been leading the web front of 0byte—“SSL for AI content,” an in-progress zero-knowledge protocol that embeds tamper-evident proofs into AI-generated media and anchors them on Solana. I’m architecting a Next.js (App Router) + Tailwind interface where users can drag-and-drop media, generate proofs, and verify authenticity in a single click. By wiring the UI directly to our Python/Rust SDK via edge APIs, I’ve already cut proof round-trip latency to < 700 ms and added optimistic states for instant feedback. Strict TypeScript contracts, accessibility reviews, and automated tests keep the codebase solid while early user testing shows a 40 % jump in engagement. Working hand-in-hand with my co-founder on the ZK backend, I’m continuously refining features, polishing UX, and guiding 0byte toward a public launch."
 
         },
         {
