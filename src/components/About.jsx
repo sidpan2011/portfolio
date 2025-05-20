@@ -12,7 +12,7 @@ const About = () => {
                         <span>
                             <a
                                 className='underline underline-offset-2 text-black dark:text-white transition-colors duration-200'
-                                href='https://www.0byte.tech/'
+                                href='https://0byte.tech/'
                             >
                                 0byte
                             </a>
