@@ -21,17 +21,17 @@ const Experiences = () => {
             from_to_date: "July 2024 - Present",
             description: "A deep-tech studio in Gurgaon (with a Delaware entity in the works) that fuses advanced cryptography, blockchain, and human-centric AI to build the trust infrastructure and intelligent tools of tomorrow’s internet—projects like 0byte, which brings cryptographic authenticity to AI-generated media, and Acraia, an autonomous AI interview platform. We pair rigorous engineering with rapid, product-first iteration—ship, learn, refine—assembling a lean team of builders who turn ambitious ideas into production-ready systems that feel effortless for users, enabling them to move faster, trust what they see, and focus on what matters."
         },
-        {
-            logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
-            company_name: "0byte",
-            title: "Co-Founder & CEO",
-            href: "https://0byte.tech/",
-            from_to_date: "Sep 2024 - Present",
-            description: " I’ve been leading the web front of 0byte—“SSL for AI content,” an in-progress zero-knowledge protocol that embeds tamper-evident proofs into AI-generated media and anchors them on Solana. I’m architecting a Next.js (App Router) + Tailwind interface where users can drag-and-drop media, generate proofs, and verify authenticity in a single click. By wiring the UI directly to our Python/Rust SDK via edge APIs, I’ve already cut proof round-trip latency to < 700 ms and added optimistic states for instant feedback. Strict TypeScript contracts, accessibility reviews, and automated tests keep the codebase solid while early user testing shows a 40 % jump in engagement. Working hand-in-hand with my co-founder on the ZK backend, I’m continuously refining features, polishing UX, and guiding 0byte toward a public launch."
+        // {
+        //     logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
+        //     company_name: "0byte",
+        //     title: "Co-Founder & CEO",
+        //     href: "https://0byte.tech/",
+        //     from_to_date: "Sep 2024 - Present",
+        //     description: " I’ve been leading the web front of 0byte—“SSL for AI content,” an in-progress zero-knowledge protocol that embeds tamper-evident proofs into AI-generated media and anchors them on Solana. I’m architecting a Next.js (App Router) + Tailwind interface where users can drag-and-drop media, generate proofs, and verify authenticity in a single click. By wiring the UI directly to our Python/Rust SDK via edge APIs, I’ve already cut proof round-trip latency to < 700 ms and added optimistic states for instant feedback. Strict TypeScript contracts, accessibility reviews, and automated tests keep the codebase solid while early user testing shows a 40 % jump in engagement. Working hand-in-hand with my co-founder on the ZK backend, I’m continuously refining features, polishing UX, and guiding 0byte toward a public launch."
 
-        },
+        // },
         {
-            logo: "https://media.licdn.com/dms/image/v2/C560BAQF7EIZJ0JWCwQ/company-logo_200_200/company-logo_200_200/0/1630638843520?e=1748476800&v=beta&t=4xw7l-naIUaBHirmtwm2zxfxM0EHyXL8nDRtzhvwpw4",
+            logo: "https://avatars.githubusercontent.com/u/100866366?s=200&v=4",
             company_name: "AssessPrep",
             title: "Frontend Developer",
             href: "https://www.assessprep.com/",
@@ -39,14 +39,14 @@ const Experiences = () => {
             description: " Increased user engagement by 30% through the development of AI-powered features, including GPT Plus model integration for PDF-based question generation. Reduced critical bug reports by 40% by implementing a comprehensive error tracking and resolution system, significantly improving overall user experience. Improved team productivity by 20% through the development of an integration between question segment reporting and Slack, optimizing workflow eﬃciency."
 
         },
-        {
-            logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFnhicLFvzh7g/company-logo_200_200/company-logo_200_200/0/1630626353923/techinfy_logo?e=1748476800&v=beta&t=0CEbpabuF6WqsDVsnj8XfUR7xwWEdWDWIvMht04tST0",
-            company_name: "Techinfy Solutions",
-            title: "Business and Data Analyst",
-            href: "https://www.techinfy.in/",
-            from_to_date: "Sep 2021 - Feb 2022",
-            description: "Played a key role in developing and implementing the HRMS for centralized employee data management, a Legal Module for streamlined case handling and lawyer communications, and a Note Sheet Module to digitize internal government communications. Responsibilities included gathering client requirements, preparing documentation, and maintaining daily client liaison, significantly reducing processing time and minimizing errors across the organization's operations."
-        },
+        // {
+        //     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQFnhicLFvzh7g/company-logo_200_200/company-logo_200_200/0/1630626353923/techinfy_logo?e=1748476800&v=beta&t=0CEbpabuF6WqsDVsnj8XfUR7xwWEdWDWIvMht04tST0",
+        //     company_name: "Techinfy Solutions",
+        //     title: "Business and Data Analyst",
+        //     href: "https://www.techinfy.in/",
+        //     from_to_date: "Sep 2021 - Feb 2022",
+        //     description: "Played a key role in developing and implementing the HRMS for centralized employee data management, a Legal Module for streamlined case handling and lawyer communications, and a Note Sheet Module to digitize internal government communications. Responsibilities included gathering client requirements, preparing documentation, and maintaining daily client liaison, significantly reducing processing time and minimizing errors across the organization's operations."
+        // },
 
     ]
     return (

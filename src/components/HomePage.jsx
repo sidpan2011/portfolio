@@ -9,18 +9,20 @@ import Projects from './Projects'
 import ContactMe from './ContactMe'
 import ContributionsGraph from './ContributionsGraph'
 import LastUpdated from './LastUpdated'
+import HallOfFame from './hall-of-fame'
 
 const HomePage = () => {
     return (
         <div className='w-full max-w-2xl mx-auto'>
             <Title />
             <About />
-            <Gallery />
+            {/* <Gallery /> */}
+            <HallOfFame />
             <Experiences />
             <Education />
             <Projects />
             {/* <ContributionsGraph /> */}
-            <ContactMe />
+            {/* <ContactMe /> */}
             <LastUpdated />
             <div className='absolute bottom-24 left-0 right-0'>
                 <FloatingDockDemo />

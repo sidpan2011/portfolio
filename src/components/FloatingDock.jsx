@@ -3,8 +3,9 @@ import React from "react";
 import {
     IconBrandGithub,
     IconBrandLinkedin,
-    IconBrandX,
+    IconBrandX, 
     IconHome,
+    IconBrandBluesky,
 } from "@tabler/icons-react";
 import { FaMedium } from "react-icons/fa6";
 import { FloatingDock } from "./ui/floating-dock";
@@ -55,6 +56,13 @@ export function FloatingDockDemo() {
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://github.com/sidpan2011",
+        },
+        {
+            title: "Bluesky",
+            icon: (
+                <IconBrandBluesky className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            ),
+            href: "https://bsky.app/profile/sidhanth.bsky.social",
         },
         {
             title: "Mode",
