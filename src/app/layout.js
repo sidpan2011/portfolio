@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import Script from "next/script";
+import { OpenPanelComponent } from "@openpanel/nextjs";
 
 export const metadata = {
   title: "Sidhanth P.",
@@ -44,6 +45,12 @@ export default function RootLayout({ children }) {
       </head>
       <body
       >
+        <OpenPanelComponent
+          profileId="06c6942d-837f-457f-a8cb-4a66297c1557"
+          trackScreenViews={true}
+          trackAttributes={true}
+          trackOutgoingLinks={true}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
