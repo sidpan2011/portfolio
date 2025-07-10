@@ -6,6 +6,9 @@ export const metadata = {
   title: "Sidhanth P.",
   description: "Hi, I'm Sidhanth Pandey. I'm a software engineer, writer, and creator. I'm passionate about building products that make a difference.",
   openGraph: {
+    type: "website",
+    url: "https://sidhanthp.me",
+    siteName: "Sidhanth P.",
     title: "Sidhanth P.",
     description: "Hi, I'm Sidhanth Pandey. I'm a software engineer, writer, and creator. I'm passionate about building products that make a difference.",
     images: ["https://www.sidhanthp.me/assets/personal-og.png"],
