@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Education = () => {
     const experiences = [
         {
-            logo: "https://media.licdn.com/dms/image/v2/C560BAQGiWBwKAnC5Yw/company-logo_200_200/company-logo_200_200/0/1646650883502?e=1748476800&v=beta&t=TjYBixPyrErw03gmu01B-7gHzsMC56OGMnmhJWHVWWk",
+            logo: "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Symbol.png",
             company_name: "Unacademy",
             title: "GATE (Graduate Aptitude Test in Engineering) Computer Science",
             from_to_date: "May 2022 - Mar 2023"
