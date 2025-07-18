@@ -71,7 +71,8 @@ export default function RootLayout({ children }) {
         />
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
+          enableSystem={true}
         >
           {children}
         </ThemeProvider>
