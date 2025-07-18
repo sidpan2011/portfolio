@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
       <body
       >
         <OpenPanelComponent
-          profileId="06c6942d-837f-457f-a8cb-4a66297c1557"
+          clientId={process.env.OPENPANEL_CLIENT_ID}
           trackScreenViews={true}
           trackAttributes={true}
           trackOutgoingLinks={true}
