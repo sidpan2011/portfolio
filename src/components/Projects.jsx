@@ -2,9 +2,19 @@ import React from 'react'
 import HighLight from './HighLight'
 import ProjectsCard from './ProjectsCard'
 import byteScreen from '../../public/assets/0byte.jpeg'
+import solPayReady from '../../public/assets/solpay-ready.jpeg'
 
 const Projects = () => {
   const myProjects = [
+    {
+      banner: solPayReady,
+      title: "Sol Pay Ready",
+      from_to_date: "Jul 2025 - Present",
+      description: "SolPay Ready is an open-source dashboard and API that instantly shows which Solana wallets truly support Solana Pay, with searchable comparisons and verified data.",
+      keywords: ["Next.js 14", "Tailwind CSS", "React", "TypeScript"],
+      web: "https://solpay-ready.vercel.app/",
+      repo: "https://github.com/sidpan2011/solpay-ready"
+    },
     {
       banner: byteScreen,
       title: "0byte",
