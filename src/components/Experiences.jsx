@@ -17,9 +17,9 @@ const Experiences = () => {
             logo: "https://avatars.githubusercontent.com/u/195132230?s=200&v=4",
             company_name: "Nolabs Tech",
             title: "Co-Founder & CEO",
-            // href: "https://www.0byte.tech/",
+            href: "https://www.linkedin.com/company/108123902/",
             from_to_date: "July 2024 - Present",
-            description: "A deep-tech studio in Gurgaon (with a Delaware entity in the works) that fuses advanced cryptography, blockchain, and human-centric AI to build the trust infrastructure and intelligent tools of tomorrow’s internet—projects like 0byte, which brings cryptographic authenticity to AI-generated media, and Acraia, an autonomous AI interview platform. We pair rigorous engineering with rapid, product-first iteration—ship, learn, refine—assembling a lean team of builders who turn ambitious ideas into production-ready systems that feel effortless for users, enabling them to move faster, trust what they see, and focus on what matters."
+            description: "A deep-tech company in Gurugram building the trust layer and offline-first tools for the AI-native internet. We fuse applied cryptography, blockchain rails, and on-device ML to ship products like 0byte (cryptographic provenance for AI-generated media) and Ravox (offline audiobook creation). We pair rigorous engineering with fast, product-first iteration—ship, learn, refine—to turn ambitious ideas into production-ready systems that feel simple, help people move faster, and let them trust what they see."
         },
         // {
         //     logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",

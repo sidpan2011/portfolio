@@ -10,24 +10,29 @@ import ContactMe from './ContactMe'
 import ContributionsGraph from './ContributionsGraph'
 import LastUpdated from './LastUpdated'
 import HallOfFame from './hall-of-fame'
+import Banner from './banner'
 
 const HomePage = () => {
     return (
-        <div className='w-full max-w-2xl mx-auto'>
-            <Title />
-            <About />
-            {/* <Gallery /> */}
-            <HallOfFame />
-            <Experiences />
-            <Education />
-            <Projects />
-            {/* <ContributionsGraph /> */}
-            {/* <ContactMe /> */}
-            <LastUpdated />
-            <div className='absolute bottom-24 left-0 right-0'>
-                <FloatingDockDemo />
+        <>
+            <Banner />
+            <div className='w-full max-w-2xl mx-auto'>
+                <Title />
+                <About />
+                {/* <Gallery /> */}
+                <HallOfFame />
+                <Experiences />
+                <Education />
+                <div className='border-t border-white/20 border-dashed' />
+                {/* <Projects /> */}
+                {/* <ContributionsGraph /> */}
+                {/* <ContactMe /> */}
+                <LastUpdated />
+                <div className='absolute bottom-24 left-0 right-0'>
+                    <FloatingDockDemo />
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

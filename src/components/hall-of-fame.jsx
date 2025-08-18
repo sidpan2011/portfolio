@@ -13,6 +13,14 @@ const HallOfFame = () => {
     }
     const hallOfFame = [
         {
+            logo: "/assets/ravox.png",
+            company_name: "Ravox",
+            title: "Offline audiobook maker",
+            href: "https://ravox.app",
+            from_to_date: "Aug 2025 - Present",
+            description: "Ravox is a local, offline audiobook studio. You import a manuscript; it produces an ACX-ready audiobook entirely on your device—no servers, no per-use fees, no data leaving your machine. Built for creators who want studio-grade narration, privacy by default, and a workflow that’s as routine as exporting a PDF—usable in villages, metros, or dead-zone networks alike.",
+        },
+        {
             logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
             company_name: "0byte",
             title: "SSL for AI content",
@@ -20,7 +28,6 @@ const HallOfFame = () => {
             from_to_date: "Sep 2024 - Present",
             description: "0byte is the “SSL padlock” for AI-generated media—a cryptographic infrastructure layer that lets creators, platforms, and everyday users instantly confirm where synthetic content came from and whether it’s been altered. Instead of brittle watermarking, 0byte hashes each output, signs it with the model or account’s private key, and anchors that signature in a lightweight public registry. A built-in web verifier then surfaces the proof with a clear green check—Authentic, created by  on —or flags anomalies if anything looks suspicious. Drop-in SDKs handle key management, hashing, and registry writes for developers, making trust frictionless and unlocking safe distribution, compliance, and monetisation for the next wave of synthetic images, audio, and video."
         },
-        
     ]
   return (
     <div className='w-full max-w-2xl mx-auto'>
