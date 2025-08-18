@@ -5,26 +5,26 @@ import { OpenPanelComponent } from "@openpanel/nextjs";
 
 export const metadata = {
   title: "Sidhanth P.",
-  description: "Hi, I'm Sidhanth Pandey. I'm a software engineer, writer, and creator. I'm passionate about building products that make a difference.",
+  description: "I’m an engineer-founder from Gurugram building offline-first AI and verifiable media, and I write about what I’m learning along the way.",
   openGraph: {
     type: "website",
     url: "https://www.sidhanthp.me",
     siteName: "Sidhanth P.",
     title: "Sidhanth P.",
-    description: "Hi, I'm Sidhanth Pandey. I'm a software engineer, writer, and creator. I'm passionate about building products that make a difference.",
+    description: "I’m an engineer-founder from Gurugram building offline-first AI and verifiable media, and I write about what I’m learning along the way.",
     images: [
       {
         url: "https://www.sidhanthp.me/assets/og.png",
         width: 1200,
         height: 630,
-        alt: "Sidhanth P. - Software Engineer, Writer, and Creator",
+        alt: "Sidhanth P. - ",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sidhanth P.",
-    description: "Hi, I'm Sidhanth Pandey. I'm a software engineer, writer, and creator. I'm passionate about building products that make a difference.",
+    description: "I’m an engineer-founder from Gurugram building offline-first AI and verifiable media, and I write about what I’m learning along the way.",
     images: ["https://www.sidhanthp.me/assets/og.png"],
     creator: "@sidhanthpande",
     site: "@sidhanthpande",
