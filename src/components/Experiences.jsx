@@ -14,6 +14,14 @@ const Experiences = () => {
     }
     const experiences = [
         {
+            logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHM_u-NE-8D1w/company-logo_200_200/company-logo_200_200/0/1718808972788/modelia_logo?e=1767225600&v=beta&t=7bXrIXFBN1_kPD7p9Rf9Q-mhpbO7dv_oK2mg4tVkUUk",
+            company_name: "Modelia",
+            title: "Full Stack Developer",
+            href: "https://www.linkedin.com/company/modelia/",
+            from_to_date: "Nov 2025 - Present",
+            description: "Modelia is an AI platform that allows taking the basic images used by retailers to sell clothes and easily, quickly, and simply transforming them into high-quality images featuring AI-generated people of any age, gender, race, and size. Just by dragging the image of a garment, describing the desired model in text, pressing the generate image button, and downloading it for use on any platform."
+        },
+        {
             logo: "https://avatars.githubusercontent.com/u/195132230?s=200&v=4",
             company_name: "Nolabs Tech",
             title: "Co-Founder & CEO",
@@ -25,7 +33,7 @@ const Experiences = () => {
         //     logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
         //     company_name: "0byte",
         //     title: "Co-Founder & CEO",
-        //     href: "https://0byte.tech/",
+        //     href: "https://nolabs.tech/",
         //     from_to_date: "Sep 2024 - Present",
         //     description: " I’ve been leading the web front of 0byte—“SSL for AI content,” an in-progress zero-knowledge protocol that embeds tamper-evident proofs into AI-generated media and anchors them on Solana. I’m architecting a Next.js (App Router) + Tailwind interface where users can drag-and-drop media, generate proofs, and verify authenticity in a single click. By wiring the UI directly to our Python/Rust SDK via edge APIs, I’ve already cut proof round-trip latency to < 700 ms and added optimistic states for instant feedback. Strict TypeScript contracts, accessibility reviews, and automated tests keep the codebase solid while early user testing shows a 40 % jump in engagement. Working hand-in-hand with my co-founder on the ZK backend, I’m continuously refining features, polishing UX, and guiding 0byte toward a public launch."
 
@@ -52,7 +60,7 @@ const Experiences = () => {
     return (
         <div className='w-full max-w-2xl mx-auto'>
             <BlurFade>
-                <h2 className='font-bold text-xl'>Work Experiences</h2>
+                <h2 className='font-bold text-xl mt-8'>Work Experiences</h2>
                 {
                     experiences.map((item, index) => (
                         <Collapsible key={index} className="mb-6 mt-4" open={openItems[index]} onOpenChange={() => toggleItem(index)} >

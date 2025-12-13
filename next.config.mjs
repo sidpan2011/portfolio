@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['private-user-images.githubusercontent.com', '1000logos.net', 'avatars.githubusercontent.com', 'assets.aceternity.com', "dev.0byte.tech", "picsum.photos", "media.licdn.com", "pbs.twimg.com", "upload.wikimedia.org", "i.pinimg.com", "images.unsplash.com", "my-projects-gifs.s3.amazonaws.com"],
+        domains: ['private-user-images.githubusercontent.com', 'media.licdn.com', '1000logos.net', 'avatars.githubusercontent.com', 'assets.aceternity.com', "dev.0byte.tech", "picsum.photos", "media.licdn.com", "pbs.twimg.com", "upload.wikimedia.org", "i.pinimg.com", "images.unsplash.com", "my-projects-gifs.s3.amazonaws.com"],
     },
 };
 export default nextConfig;
