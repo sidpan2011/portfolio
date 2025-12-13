@@ -21,7 +21,7 @@ const Projects = () => {
       from_to_date: "Sep 2024 - Present",
       description: "0byte is a zero-knowledge infrastructure layer that invisibly embeds tamper-evident proofs into AI-generated media as it’s created, anchoring those proofs on Solana so anyone can verify authenticity without revealing private data.",
       keywords: ["Nextjs", "Tailwind CSS", "Solana SDK","Python", "ZKP", "Anchor", "Rust"],
-      web: "https://0byte.tech/",
+      web: "https://nolabs.tech/",
       repo: "https://github.com/0byte-lab"
     },
     {

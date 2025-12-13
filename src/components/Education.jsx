@@ -32,7 +32,7 @@ const Education = () => {
     return (
         <div className='my-3 w-full max-w-2xl mx-auto'>
             <BlurFade>
-                <h2 className='font-bold text-xl'>Education</h2>
+                <h2 className='font-bold text-xl mt-8'>Education</h2>
                 {
                     experiences.map((item, index) => (
                         <div className='flex justify-between items-center mb-6 mt-4'>

@@ -11,11 +11,12 @@ import ContributionsGraph from './ContributionsGraph'
 import LastUpdated from './LastUpdated'
 import HallOfFame from './hall-of-fame'
 import Banner from './banner'
+import Footer from './Footer'
 
 const HomePage = () => {
     return (
         <>
-            <Banner />
+            {/* <Banner /> */}
             <div className='w-full max-w-2xl mx-auto'>
                 <Title />
                 <About />
@@ -28,6 +29,7 @@ const HomePage = () => {
                 {/* <ContributionsGraph /> */}
                 {/* <ContactMe /> */}
                 <LastUpdated />
+                <Footer />
                 <div className='absolute bottom-24 left-0 right-0'>
                     <FloatingDockDemo />
                 </div>

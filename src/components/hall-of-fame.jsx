@@ -24,15 +24,23 @@ const HallOfFame = () => {
             logo: "https://avatars.githubusercontent.com/u/182339599?s=200&v=4",
             company_name: "0byte",
             title: "SSL for AI content",
-            href: "https://0byte.tech/",
+            href: "https://nolabs.tech/",
             from_to_date: "Sep 2024 - Present",
             description: "0byte is the “SSL padlock” for AI-generated media—a cryptographic infrastructure layer that lets creators, platforms, and everyday users instantly confirm where synthetic content came from and whether it’s been altered. Instead of brittle watermarking, 0byte hashes each output, signs it with the model or account’s private key, and anchors that signature in a lightweight public registry. A built-in web verifier then surfaces the proof with a clear green check—Authentic, created by  on —or flags anomalies if anything looks suspicious. Drop-in SDKs handle key management, hashing, and registry writes for developers, making trust frictionless and unlocking safe distribution, compliance, and monetisation for the next wave of synthetic images, audio, and video."
+        },
+        {
+            logo: "/assets/pingback-logo.webp",
+            company_name: "Pingback",
+            title: "Turn messages into real follow-ups",
+            href: "https://getpingback.app/",
+            from_to_date: "Oct 2025 - Present",
+            description: "Chats run our lives—WhatsApp, Telegram, SMS, email. Promises like “I’ll send it by EOD” or “kal subah 9” get buried in the feed. Traditional todo apps force you to start from a blank box, so most die unused. We wanted a chat-native follow-up tool that works where commitments actually happen.",
         },
     ]
   return (
     <div className='w-full max-w-2xl mx-auto'>
     <BlurFade>
-        <h2 className='font-bold text-xl'>I'm currently building</h2>
+        <h2 className='font-bold text-xl mt-8'>I'm currently building</h2>
         {
             hallOfFame.map((item, index) => (
                 <Collapsible key={index} className="mb-6 mt-4" open={openItems[index]} onOpenChange={() => toggleItem(index)} >

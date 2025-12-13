@@ -32,7 +32,7 @@ const LastUpdated = () => {
   }, []);
 
   return (
-    <div className="mb-52 mt-6">
+    <div className="mb-10 mt-6">
       <p className="dark:text-white/50 text-black/50 text-sm">
         Last updated on <span>{lastUpdated}</span>
       </p>
