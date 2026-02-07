@@ -14,7 +14,7 @@ const Experiences = () => {
     }
     const experiences = [
         {
-            logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHM_u-NE-8D1w/company-logo_200_200/company-logo_200_200/0/1718808972788/modelia_logo?e=1767225600&v=beta&t=7bXrIXFBN1_kPD7p9Rf9Q-mhpbO7dv_oK2mg4tVkUUk",
+            logo: "https://media.licdn.com/dms/image/v2/D4E0BAQGD14lQT3v6oA/company-logo_200_200/B4EZs2f6KTHEAI-/0/1766145893914?e=1772064000&v=beta&t=tDuKnPm3OkR3ztenyyhe02BWHjD34zZhqL8vvissto0",
             company_name: "Modelia",
             title: "Full Stack Developer",
             href: "https://www.linkedin.com/company/modelia/",
