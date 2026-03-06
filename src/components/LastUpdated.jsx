@@ -8,10 +8,8 @@ const LastUpdated = () => {
     const run = async () => {
       try {
         const res = await fetch("/api/last-updated", { cache: "no-store" });
-        console.log("Fetching last updated info from /api/last-updated");
         if (!res.ok) throw new Error("Failed to fetch");
         const { lastUpdated: ts } = await res.json();
-        console.log("Fetching last updated info from /api/last-updated", ts);
         if (ts) {
           const d = new Date(ts);
           const formatted = d.toLocaleDateString("en-US", {
